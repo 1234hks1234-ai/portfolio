@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%231B7A72%22/><text x=%2250%22 y=%2266%22 font-size=%2255%22 font-family=%22sans-serif%22 fill=%22%23F6F7F4%22 text-anchor=%22middle%22>K</text></svg>" />
+
+    <title>Khadija Saeed | Computer Science Student &amp; Developer</title>
+    <meta name="description" content="Portfolio of Khadija Saeed, a Computer Science student building responsive web applications and data-focused projects." />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Khadija Saeed | Computer Science Student & Developer" />
+    <meta property="og:description" content="Portfolio of Khadija Saeed, a Computer Science student building responsive web applications and data-focused projects." />
+    <meta property="og:site_name" content="Khadija Saeed" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Khadija Saeed | Computer Science Student & Developer" />
+    <meta name="twitter:description" content="Portfolio of Khadija Saeed, a Computer Science student building responsive web applications and data-focused projects." />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <script>
+      (function () {
+        var stored = localStorage.getItem("theme");
+        var prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+        if (stored === "dark" || (!stored && prefersDark)) {
+          document.documentElement.classList.add("dark");
+        }
+      })();
+    </script>
+  </head>
+  <body class="bg-paper dark:bg-ink text-ink dark:text-paper font-body antialiased">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
