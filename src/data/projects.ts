@@ -44,8 +44,8 @@ export const projects: Project[] = [
       "Git/GitHub",
       "Vercel",
     ],
-    liveUrl: "#",
-    githubUrl: "#",
+    liveUrl: "https://lifelens-blond.vercel.app/",
+    githubUrl: "https://github.com/1234hks1234-ai/lifelens",
     imagePlaceholder: "LifeLens",
   },
   {
@@ -64,7 +64,7 @@ export const projects: Project[] = [
     ],
     technologies: ["Python", "pandas", "NumPy", "Matplotlib", "Streamlit", "Data Analysis"],
     liveUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/1234hks1234-ai/data-drift-monitor",
     imagePlaceholder: "Data Drift Monitor",
   },
 ];
